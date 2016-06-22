@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
         #Calibrate matrix
          set <- function(matrix) {
                 x <<- matrix
-                null_variable <<- NULL 
+                m <<- NULL 
         }
         
         get <- function() {
